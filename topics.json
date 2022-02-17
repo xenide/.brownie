@@ -1,0 +1,2323 @@
+{
+  "0x05b835226015d13a29fee1f3e2d4da5d4733d310c903152ff477aab3149c169b": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newDefaultFeePercentage",
+        "type": "uint256"
+      }
+    ],
+    "name": "DefaultFeePercentageUpdated"
+  },
+  "0x0613b6ee6a04f0d09f390e4d9318894b9f6ac7fd83897cd8d18896ba579c401e": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldPauseGuardian",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newPauseGuardian",
+        "type": "address"
+      }
+    ],
+    "name": "NewPauseGuardian"
+  },
+  "0x06b541ddaa720db2b10a4d0cdac39b8d360425fc073085fac19bc82614677987": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Sent"
+  },
+  "0x07bd58794c2ca0ae152f7719eb5f02c654476de972cadec0e8191ae8be42096d": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "tag",
+        "type": "string"
+      }
+    ],
+    "name": "VaultTagged"
+  },
+  "0x0810a1c261ca2c0cd86a0152c51c43ba9dc329639d2349f98140891b2ea798eb": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "performanceFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdatePerformanceFee"
+  },
+  "0x088672c3a6e342f7cd94a65ba63b79df24a8973927b4d05d803c44bbf787d12f": {
+    "inputs": [],
+    "name": "RefundsClosed"
+  },
+  "0x0b728ad785976532c4aaadde09b1cba5f262a7090e83c62d2377bc405678b29c": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "minDebtPerHarvest",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyUpdateMinDebtPerHarvest"
+  },
+  "0x0bcad9224ba33b574e9c85298de2f44b4c80015a21aa5df474896444909863d8": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "ids",
+        "type": "uint256[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "values",
+        "type": "uint256[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "gas",
+        "type": "uint256"
+      }
+    ],
+    "name": "BatchReceived"
+  },
+  "0x100b69bb6b504e1252e36b375233158edee64d071b399e2f81473a695fd1b021": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "oldVersion",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "newVersion",
+        "type": "address"
+      }
+    ],
+    "name": "StrategyMigrated"
+  },
+  "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "approved",
+        "type": "bool"
+      }
+    ],
+    "name": "ApprovalForAll"
+  },
+  "0x1796a8e0760e2de5b72e7bf64fccb7666c48ceab94cb6cae7cb7eff4b6f641ab": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "maxDebtPerHarvest",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyUpdateMaxDebtPerHarvest"
+  },
+  "0x18075ab463b4dc5842f37ecd67abeb192eda5d073f2c08509e189ad173d5c020": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "index",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "address",
+            "name": "creator",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "comptroller",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "blockPosted",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timestampPosted",
+            "type": "uint256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct FusePoolDirectory.FusePool",
+        "name": "pool",
+        "type": "tuple"
+      }
+    ],
+    "name": "PoolRegistered"
+  },
+  "0x20dfa9f79060c8c4d7fe892c97c71bcf6e3b63d1dcf66fea7aefc0211628cf29": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "gas",
+        "type": "uint256"
+      }
+    ],
+    "name": "Received"
+  },
+  "0x230ea7611927651b3794f5980dc4d2cbec255585dcb10c3ccbc3e4614d8455b1": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC4626",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "protocolFeeAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "safeInterestAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "VaultSlurped"
+  },
+  "0x28fa6e16458f9c24aa59ddd4085264573006dbe30304837873c7deafc702b038": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "gas",
+        "type": "uint256"
+      }
+    ],
+    "name": "Received"
+  },
+  "0x2da466a7b24304f47e87fa2e1e5a81b9831ce54fec19055ce277ca2f39ba42c4": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "payee",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "weiAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Deposited"
+  },
+  "0x2f202ddb4a2e345f6323ed90f8fc8559d770a7abbbeee84dde8aca3351fe7154": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newKeeper",
+        "type": "address"
+      }
+    ],
+    "name": "UpdatedKeeper"
+  },
+  "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      }
+    ],
+    "name": "RoleGranted"
+  },
+  "0x2fe4ac858c92a82277540eb653993c6d95d8a4ac21d4d2710ef66d944e66c2e6": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "frozen",
+        "type": "bool"
+      }
+    ],
+    "name": "FreezeStatusUpdated"
+  },
+  "0x2fe5be0146f74c5bce36c0b80911af6c7d86ff27e89d5cfa61fc681327954e5d": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Minted"
+  },
+  "0x300e67d5a415b6d015a471d9c7b95dd58f3e8290af965e84e0f845de2996dda6": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "metadataURI",
+        "type": "string"
+      }
+    ],
+    "name": "UpdatedMetadataURI"
+  },
+  "0x302feb03efd5741df80efe7f97f5d93d74d46a542a3d312d0faae64fa1f3e0e9": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      }
+    ],
+    "name": "MarketUnlisted"
+  },
+  "0x31b67e6853df85403a8c4f4f46dc53f48f700d6917c8e3ec8c77a0e6fd56793b": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "admins",
+        "type": "address[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
+      }
+    ],
+    "name": "AdminWhitelistUpdated"
+  },
+  "0x352ececae6d7d1e6d26bcf2c549dfd55be1637e9b22dc0cf3b71ddb36097a6b4": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newStrategist",
+        "type": "address"
+      }
+    ],
+    "name": "UpdatedStrategist"
+  },
+  "0x382ae7807b72e354764667e9e1dd5cd575c3fe7cee12add48bcfaa99e891e2c9": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract TurboBooster",
+        "name": "newBooster",
+        "type": "address"
+      }
+    ],
+    "name": "BoosterUpdated"
+  },
+  "0x3ab23ab0d51cccc0c3085aec51f99228625aa1a922b3a8ca89a26b0f2027a1a5": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "MarketEntered"
+  },
+  "0x3b9670cf975d26958e754b57098eaa2ac914d8d2a31b83257997b9f346110fd9": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldCloseFactorMantissa",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newCloseFactorMantissa",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewCloseFactor"
+  },
+  "0x3d9639f4ecd206b5c3026887333172ab506945b37637997045cffd5f260a7136": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC4626",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newBoostCap",
+        "type": "uint256"
+      }
+    ],
+    "name": "BoostCapUpdatedForVault"
+  },
+  "0x40c340f65e17194d14ddddb073d3c9f888e3cb52b5aae0c6c7706b4fbc905fac": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "shares",
+        "type": "uint256"
+      }
+    ],
+    "name": "PayeeAdded"
+  },
+  "0x4201c688d84c01154d321afa0c72f1bffe9eef53005c9de9d035074e71e9b32a": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      }
+    ],
+    "name": "StrategyRevoked"
+  },
+  "0x45b96fe442630264581b197e84bbada861235052c5a1aadfff9ea4e40a969aa0": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "error",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "info",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "detail",
+        "type": "uint256"
+      }
+    ],
+    "name": "Failure"
+  },
+  "0x46fd11d98227e9c54f39734c7aa744b4551b6734cf4d69b046e7a199b6611984": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC4626",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "feiAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "VaultBoosted"
+  },
+  "0x47e915878c47f3ec4d7ff646a2becb229f64fd2abe4d2b5e2bb4275b0cf50d4e": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "operatorData",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fromBalance",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "toBalance",
+        "type": "uint256"
+      }
+    ],
+    "name": "TokensReceivedCalled"
+  },
+  "0x49ca6ed85336e565e010a8e6724df54d52e49015a3e0e726d8a315098dbb1b59": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC20",
+        "name": "underlying",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract TurboSafe",
+        "name": "safe",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "TurboSafeCreated"
+  },
+  "0x4a39dc06d4c0dbc64b70af90fd698a233a518aa5d07e595d983b8c0526c8f7fb": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "ids",
+        "type": "uint256[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "values",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "TransferBatch"
+  },
+  "0x4c0f499ffe6befa0ca7c826b0916cf87bea98de658013e76938489368d60d509": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "profit",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "loss",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "debtPayment",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "debtOutstanding",
+        "type": "uint256"
+      }
+    ],
+    "name": "Harvested"
+  },
+  "0x4ebbe8f76474854ba65b18eb0cdbd5217493b303404e49cec35a83722f213847": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract Authority",
+        "name": "newDefaultSafeAuthority",
+        "type": "address"
+      }
+    ],
+    "name": "DefaultSafeAuthorityUpdated"
+  },
+  "0x4f386975ea1c2f7cf1845b08bee00626fbb624ecad16254d63d9bb9ba86526de": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "governance",
+        "type": "address"
+      }
+    ],
+    "name": "NewGovernance"
+  },
+  "0x50546e66e5f44d728365dc3908c63bc5cfeeab470722c1677e3073a6ac294aa1": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "tokenHolder",
+        "type": "address"
+      }
+    ],
+    "name": "RevokedOperator"
+  },
+  "0x52c66ed6ec9ca819cba26fe2b2650059270d8981b295af300187a964f54a8c23": {
+    "inputs": [],
+    "name": "MockFunctionCalled"
+  },
+  "0x540798df468d7b23d11f156fdb954cb19ad414d150722a7b6d55ba369dea792e": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "rewardsToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "reward",
+        "type": "uint256"
+      }
+    ],
+    "name": "RewardPaid"
+  },
+  "0x5430e11864ad7aa9775b07d12657fe52df9aa2ba734355bd8ef8747be2c800c5": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "delay",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdatedMaxReportDelay"
+  },
+  "0x57a9cdc2a05e05f66e76769bdbe88e21ec45d9ee0f97d4cb60395d4c75dcbcda": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "deployer",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "api_version",
+        "type": "string"
+      }
+    ],
+    "name": "NewExperimentalVault"
+  },
+  "0x599d8e5a83cffb867d051598c4d70e805d59802d8081c1c7d6dffc5b6aca2b89": {
+    "inputs": [],
+    "name": "RefundsEnabled"
+  },
+  "0x5a6abd2af9fe6c0554fa08649e2d86e4393ff19dc304d072d38d295c9291d4dc": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "debtRatio",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "minDebtPerHarvest",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "maxDebtPerHarvest",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "performanceFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyAdded"
+  },
+  "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "Unpaused"
+  },
+  "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "Paused"
+  },
+  "0x6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f8": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "PauserAdded"
+  },
+  "0x67e4d5adfb8b1297b3a6aefe54aef4a4b06b32d69d207aeebb98d6bdce4383ea": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC20",
+        "name": "collateral",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newBoostCap",
+        "type": "uint256"
+      }
+    ],
+    "name": "BoostCapUpdatedForCollateral"
+  },
+  "0x67f96d2854a335a4cadb49f84fd3ca6f990744ddb3feceeb4b349d2d53d32ad3": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "gain",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "loss",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "debtPaid",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "totalGain",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "totalLoss",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "totalDebt",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "debtAdded",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "debtRatio",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyReported"
+  },
+  "0x695ac3ac73f08f2002284ffe563cefe798ee2878a5e04219522e2e99eb89d168": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "queue",
+        "type": "address[20]"
+      }
+    ],
+    "name": "UpdateWithdrawalQueue"
+  },
+  "0x6bb7ff708619ba0610cba295a58592e0451dee2622938c8755667688daf3529b": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "URI"
+  },
+  "0x6ef95f06320e7a25a04a175ca677b7052bdd97131872c2192525a629f51be770": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "PaymentReceived"
+  },
+  "0x6f1951b2aad10f3fc81b86d91105b413a5b3f847a34bbc5ce1904201b14438f6": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newBorrowCap",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewBorrowCap"
+  },
+  "0x70483e6592cd5182d45ac970e05bc62cdcc90e9d8ef2c2dbe686cf383bcd7fc5": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldCollateralFactorMantissa",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newCollateralFactorMantissa",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewCollateralFactor"
+  },
+  "0x7084f5476618d8e60b11ef0d7d3f06914655adb8793e28ff7f018d4c76d505d5": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Withdrawn"
+  },
+  "0x71aec636243f9709bb0007ae15e9afb8150ab01716d75fd7573be5cc096e03b0": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "pauseState",
+        "type": "bool"
+      }
+    ],
+    "name": "ActionPaused"
+  },
+  "0x783540fb4221a3238720dc7038937d0d79982bcf895274aa6ad179f82cf0d53c": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "clone",
+        "type": "address"
+      }
+    ],
+    "name": "Cloned"
+  },
+  "0x7a7883b0074f96e2c7fab65eb25abf624c488761a5db889e3bb84855dcc6daaf": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "managementFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdateManagementFee"
+  },
+  "0x8030e83b04d87bef53480e26263266d6ca66863aa8506aca6f2559d18aa1cb67": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "Snapshot"
+  },
+  "0x8292fce18fa69edf4db7b94ea2e58241df0ae57f97e0a6c9b29067028bf92d76": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnerUpdated"
+  },
+  "0x837b9ad138a0a1839a9637afce5306a5c13e23eb63365686843a5319a243609c": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "guardian",
+        "type": "address"
+      }
+    ],
+    "name": "UpdateGuardian"
+  },
+  "0x84c7d948374a180eddab35d27d2f7a94167a1ff4e79467f1e89c061984190a1e": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "enforce",
+        "type": "bool"
+      }
+    ],
+    "name": "WhitelistEnforcementChanged"
+  },
+  "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred"
+  },
+  "0x8c1256b8896378cd5044f80c202f9772b9d77dc85c8a6eb51967210b09bfaa28": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Recovered"
+  },
+  "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "name": "Approval"
+  },
+  "0x8d55d160c0009eb3d739442df0a3ca089ed64378bfac017e7ddad463f9815b87": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "governance",
+        "type": "address"
+      }
+    ],
+    "name": "UpdateGovernance"
+  },
+  "0x8e1ec3c16d6a67ea8effe2ac7adef9c2de0bc0dc47c49cdf18f6a8b0048085be": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      }
+    ],
+    "name": "StrategyRemovedFromQueue"
+  },
+  "0x8fb6c181ee25a520cf3dd6565006ef91229fcfe5a989566c2a3b8c115570cec5": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "isPaused",
+        "type": "bool"
+      }
+    ],
+    "name": "PauseChanged"
+  },
+  "0x906a1c6bd7e3091ea86693dd029a831c19049ce77f1dce2ce0bab1cacbabce22": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnerNominated"
+  },
+  "0x953f09f7a78fa3a0495721607d1598df588d920beb84611e359b2938fbbafe0d": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract TurboSafe",
+        "name": "safe",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newFeePercentage",
+        "type": "uint256"
+      }
+    ],
+    "name": "CustomFeePercentageUpdatedForSafe"
+  },
+  "0x97e963041e952738788b9d4871d854d282065b8f90a464928d6528f2e9a4fd0b": {
+    "inputs": [],
+    "name": "EmergencyExitEnabled"
+  },
+  "0x98ef1187fb6fd2bc85f8996489877eb2b5428f9e9bdfc068c9ad6c2ea82eacc7": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "rewardsDistributor",
+        "type": "address"
+      }
+    ],
+    "name": "AddedRewardsDistributor"
+  },
+  "0x9bbe84c9c6d0d7d6dc77064f8403d848cace721f1ea41b3c61699f3f2d2aaff4": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC4626",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "feiAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "VaultLessened"
+  },
+  "0x9e0ad9cee10bdf36b7fbd38910c0bdff0f275ace679b45b922381c2723d676f8": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newSupplyCap",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewSupplyCap"
+  },
+  "0x9e71bc8eea02a63969f509818f2dafb9254532904319f9dbda79b67bd34a5f3d": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Staked"
+  },
+  "0xa0fae858a9c4a671705052e5103905b60b9c710986ae33bbd7c4108a96e8bdec": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC20",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "TokenSweeped"
+  },
+  "0xa3396fd7f6e0a21b50e5089d2da70d5ac0a3bbbd1f617a93f134b76389980198": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract Authority",
+        "name": "newAuthority",
+        "type": "address"
+      }
+    ],
+    "name": "AuthorityUpdated"
+  },
+  "0xa68ba126373d04c004c5748c300c9fca12bd444b3d4332e261f3bd2bac4a8600": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "debtThreshold",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdatedDebtThreshold"
+  },
+  "0xa6fbd216b6734f34092f1be6b7247e1551a6d4f2d5000c53721cfdc119a5b7cf": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "release_id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "template",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "api_version",
+        "type": "string"
+      }
+    ],
+    "name": "NewRelease"
+  },
+  "0xa78a9be3a7b862d26933ad85fb11d80ef66b8f972d7cbba06621d583943a4098": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Burned"
+  },
+  "0xa8727d412c6fa1e2497d6d6f275e2d9fe4d9318d5b793632e60ad9d38ee8f1fa": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      }
+    ],
+    "name": "StrategyAddedToQueue"
+  },
+  "0xaa3e88aca472e90221daf7d3d601abafb62b120319089d7a2c2f63588da85529": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "operatorData",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fromBalance",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "toBalance",
+        "type": "uint256"
+      }
+    ],
+    "name": "TokensToSendCalled"
+  },
+  "0xaa40ee94af55250363b91641a0a615c47690148901505f89b01dafae03fff281": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "enabled",
+        "type": "bool"
+      }
+    ],
+    "name": "AutoImplementationsToggled"
+  },
+  "0xad2f86b01ed93b4b3a150d448c61a4f5d8d38075d3c0c64cc0a26fd6e1f49545": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newDuration",
+        "type": "uint256"
+      }
+    ],
+    "name": "RewardsDurationUpdated"
+  },
+  "0xadb88fd358add1939604589383a855ef0a42b3a8a22c5a3aa5be3c1ef6b7ec20": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract TurboClerk",
+        "name": "newClerk",
+        "type": "address"
+      }
+    ],
+    "name": "ClerkUpdated"
+  },
+  "0xae565aab888bca5e19e25a13db7b0c9144305bf55cb0f3f4d724f730e5acdd62": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "depositLimit",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdateDepositLimit"
+  },
+  "0xaeba5a6c40a8ac138134bff1aaa65debf25971188a58804bad717f82f0ec1316": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldLiquidationIncentiveMantissa",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newLiquidationIncentiveMantissa",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewLiquidationIncentive"
+  },
+  "0xaf235354a0a47c91ee171961326335cb2d1a8e55b8a89859b0e61eb049e50ea0": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "integerValue",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "stringValue",
+        "type": "string"
+      }
+    ],
+    "name": "Data"
+  },
+  "0xafbb66abf8f3b719799940473a4052a3717cdd8e40fb6c8a3faadab316b1a069": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "rewards",
+        "type": "address"
+      }
+    ],
+    "name": "UpdatedRewards"
+  },
+  "0xafde937308e3465d892de3ee55bed5ca395385a6ebe0823137d0c300f5aaf635": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "underlyingAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "SafeGibbed"
+  },
+  "0xb532073b38c83145e3e5135377a08bf9aab55bc0fd7c1179cd4fb995d2a5159c": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldOwner",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnerChanged"
+  },
+  "0xb626bf05c015d45f8aa29ffc7ce9aa5cf28c9f572e10cd2a7b016b8822fe4edf": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract TurboSafe",
+        "name": "safe",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "feiAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "underlyingAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "ImpoundExecuted"
+  },
+  "0xb9f84b8e65164b14439ae3620df0a4d8786d896996c0282b683f9d8c08f046e8": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "oldRelayHub",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newRelayHub",
+        "type": "address"
+      }
+    ],
+    "name": "RelayHubChanged"
+  },
+  "0xba40372a3a724dca3c57156128ef1e896724b65b37a17f190b1ad5de68f3a4f3": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "active",
+        "type": "bool"
+      }
+    ],
+    "name": "EmergencyShutdown"
+  },
+  "0xbb2c369a0355a34b02ab5fce0643150c87e1c8dfe7c918d465591879f57948b1": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "delay",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdatedMinReportDelay"
+  },
+  "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "previousAdminRole",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "newAdminRole",
+        "type": "bytes32"
+      }
+    ],
+    "name": "RoleAdminChanged"
+  },
+  "0xbda9398315c83ccef012bcaa318a2ff7b680f36429d36597bd4bc25ac11ead59": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "debtRatio",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyUpdateDebtRatio"
+  },
+  "0xc3d58168c5ae7397731d063d5bbf3d657854427343f4c083240f7aacaa2d0f62": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "TransferSingle"
+  },
+  "0xcd265ebaf09df2871cc7bd4133404a235ba12eff2041bb89d9c714a2621c7c7e": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "PauserRemoved"
+  },
+  "0xce089905ba4a4d622553bcb5646fd23e895c256f0376eee04e99e61cec1dc7e8": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "vault_id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "api_version",
+        "type": "string"
+      }
+    ],
+    "name": "NewVault"
+  },
+  "0xcf583bb0c569eb967f806b11601c4cb93c10310485c67add5f8362c2f212321f": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      }
+    ],
+    "name": "MarketListed"
+  },
+  "0xd52b2b9b7e9ee655fcb95d2e5b9e0c9f69e7ef2b8e9d2d0ea78402d576d22e22": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract PriceOracle",
+        "name": "oldPriceOracle",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract PriceOracle",
+        "name": "newPriceOracle",
+        "type": "address"
+      }
+    ],
+    "name": "NewPriceOracle"
+  },
+  "0xd6558c3ed910d959271054471fd1c326679d9fece99c5091b00ed89627cf2bfc": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      }
+    ],
+    "name": "Sender"
+  },
+  "0xd94596337df4c2f0f44d30a7fc5db1c7bb60d9aca4185ed77c6fd96eb45ec298": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "profitFactor",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdatedProfitFactor"
+  },
+  "0xdcbc1c05240f31ff3ad067ef1ee35ce4997762752e3a095284754544f4c709d7": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "shares",
+        "type": "uint256"
+      }
+    ],
+    "name": "Deposit"
+  },
+  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "name": "Transfer"
+  },
+  "0xde4813f7525e49908b98ef6c9c80c5bc8c7d0842981a49420eb45ef36a60e0c0": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "senderBalance",
+        "type": "uint256"
+      }
+    ],
+    "name": "MockFunctionCalled"
+  },
+  "0xde88a922e0d3b88b24e9623efeb464919c6bf9f66857a65e2bfcf2ce87a9433d": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "reward",
+        "type": "uint256"
+      }
+    ],
+    "name": "RewardAdded"
+  },
+  "0xdf20fd1e76bc69d672e4814fafb2c449bba3a5369d8359adf9e05e6fde87b056": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "PaymentReleased"
+  },
+  "0xdf3c41a916aecbf42361a147f8348c242662c3ce20ecef30e826b80642477a3d": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "rewards",
+        "type": "address"
+      }
+    ],
+    "name": "UpdateRewards"
+  },
+  "0xe518073da644d0626295bee74d5d5c51447a33857c62913bb30f35e2fba3db7c": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "data",
+        "type": "string"
+      }
+    ],
+    "name": "CallReturnValue"
+  },
+  "0xe57488a65fa53066d4c25bac90db47dda4e5de3025ac12bf76ff07211cf7f39e": {
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "strategy",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "performanceFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "StrategyUpdatePerformanceFee"
+  },
+  "0xe699a64c18b07ac5b7301aa273f36a2287239eb9501d81950672794afba29a0d": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract CToken",
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "MarketExited"
+  },
+  "0xe8ce8c9730b5ce72d9a4500506a84a07b51294742fba0cad0493f4c0796f382d": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "contract ERC20",
+        "name": "collateral",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newFeePercentage",
+        "type": "uint256"
+      }
+    ],
+    "name": "CustomFeePercentageUpdatedForCollateral"
+  },
+  "0xeac959e542f75e8be52a05dbeb3ada6a1fd99822ec6cbe863db2e60599bfa697": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "contract TurboGibber",
+        "name": "newGibber",
+        "type": "address"
+      }
+    ],
+    "name": "GibberUpdated"
+  },
+  "0xed9840e0775590557ad736875d96c95cf1458b766335f74339951a32c82a9e33": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "result",
+        "type": "bool"
+      }
+    ],
+    "name": "OperationResult"
+  },
+  "0xeda98690e518e9a05f8ec6837663e188211b2da8f4906648b323f2c1d4434e29": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldBorrowCapGuardian",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newBorrowCapGuardian",
+        "type": "address"
+      }
+    ],
+    "name": "NewBorrowCapGuardian"
+  },
+  "0xef159d9a32b2472e32b098f954f3ce62d232939f1c207070b584df1814de2de0": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "pauseState",
+        "type": "bool"
+      }
+    ],
+    "name": "ActionPaused"
+  },
+  "0xf341246adaac6f497bc2a656f546ab9e182111d630394f0c57c710a59a2cb567": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "shares",
+        "type": "uint256"
+      }
+    ],
+    "name": "Withdraw"
+  },
+  "0xf4caeb2d6ca8932a215a353d0703c326ec2d81fc68170f320eb2ab49e9df61f9": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "tokenHolder",
+        "type": "address"
+      }
+    ],
+    "name": "AuthorizedOperator"
+  },
+  "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b": {
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      }
+    ],
+    "name": "RoleRevoked"
+  },
+  "0xf9ffabca9c8276e99321725bcb43fb076a6c66a54b7f21c4e8146d8519b417dc": {
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldAdmin",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      }
+    ],
+    "name": "NewAdmin"
+  },
+  "0xff54978127edd34aec0f9061fb3b155fbe0ededdfa881ee3e0d541d3a1eef438": {
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "management",
+        "type": "address"
+      }
+    ],
+    "name": "UpdateManagement"
+  }
+}
